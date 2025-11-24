@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fa;
+}
+
+header{
+    background-color: #003366;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.heading{
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #0066cc, #003366);
+    color: white;
+}
+
+.heading button{
+    padding: 12px 25px;
+    background-color: yellow;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.services{
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service-box {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.contact {
+    background-color: #003366;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
